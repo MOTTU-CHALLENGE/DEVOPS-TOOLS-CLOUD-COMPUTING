@@ -1,0 +1,67 @@
+// Teste de post do filial
+[
+  {
+    "nomeFilial": "Cavalcante do Sul",
+    "endereco": "Via Luana Moreira 77",
+    "cidade": "Cavalcante do Sul",
+    "estado": "Via Jose Pedro Cavalcante",
+    "pais": "Brazil",
+    "cep": null,
+    "telefone": "+55 62 9 6897 6444",
+    "dataInauguracao": "2025-09-28T21:35:38.172Z"
+  },
+  {
+    "nomeFilial": "Aparecida Paulista",
+    "endereco": "Rua Mariana Montenegro 14",
+    "cidade": "Aparecida Paulista",
+    "estado": "Patio Moreira",
+    "pais": "Brazil",
+    "cep": null,
+    "telefone": "+55 (81) 94053 6810",
+    "dataInauguracao": "2025-09-28T21:35:38.172Z"
+  },
+  {
+    "nomeFilial": "Barros",
+    "endereco": "Chacara Maria Helena Silva 72",
+    "cidade": "Barros",
+    "estado": "Feira de Barbosa",
+    "pais": "Brazil",
+    "cep": null,
+    "telefone": "+55 (11) 93442 1826",
+    "dataInauguracao": "2025-09-28T21:35:38.172Z"
+  }
+]
+
+// Teste de put do filial
+[
+  {
+    "nomeFilial": "Cavalcante do Sul",
+    "endereco": "Via Luana Moreira 77",
+    "cidade": "Cavalcante do Sul",
+    "estado": "Via Jose Pedro Cavalcante",
+    "pais": "Brazil",
+    "cep": "08170-000",
+    "telefone": "+55 62 9 6897 6444",
+    "dataInauguracao": "2025-09-28T21:35:38.172Z"
+  },
+  {
+    "nomeFilial": "Aparecida Paulista",
+    "endereco": "Rua Mariana Montenegro 14",
+    "cidade": "Aparecida Paulista",
+    "estado": "Patio Moreira",
+    "pais": "Brazil",
+    "cep": "99170-010",
+    "telefone": "+55 (81) 94053 6810",
+    "dataInauguracao": "2025-09-28T21:35:38.172Z"
+  },
+  {
+    "nomeFilial": "Barros",
+    "endereco": "Chacara Maria Helena Silva 72",
+    "cidade": "Barros",
+    "estado": "Feira de Barbosa",
+    "pais": "Brazil",
+    "cep": "06233-060",
+    "telefone": "+55 (11) 93442 1826",
+    "dataInauguracao": "2025-09-28T21:35:38.172Z"
+  }
+]
