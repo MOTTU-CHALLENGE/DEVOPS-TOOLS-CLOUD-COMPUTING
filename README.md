@@ -1,4 +1,4 @@
-# DEVOPS-TOOLS-CLOUD-COMPUTING
+# $DEVOPS-TOOLS-CLOUD-COMPUTING$
 
 ## **Integrantes**
 
@@ -20,13 +20,13 @@ A proposta é usar **dispositivos IoT (como o ESP32)** para captar a intensidade
 
 Com um custo aproximado de **R$ 50,00 por dispositivo**, conseguimos montar um sistema inteligente e acessível para monitoramento interno.
 
-1. Uso de python com IA generativa para "_estimar_" a posição da moto.
+### 1. Uso de python com IA generativa para "_estimar_" a posição da moto.
 
 <img src="./img/patio_com_antenas.png" width="400"/>
 
-2. API DOTNET para backend.
+### 2. API DOTNET para backend.
 
-3. AZURE App Services
+### 3. AZURE App Services
    - Deploy da aplicação em nuvem para facilitar o acesso e escalabilidade.
    - Application insights para métricas da aplicação.
 
@@ -72,7 +72,7 @@ Seria apenas liberar a permissão para a azure monitorar a branch e realizar o d
 
 O deploy/build pode ter um erro cano não tenha acesso ao banco de dados.
 
-Solução seria adicionar as variáveis ao secrets do github e no workflow da azure. 
+Solução seria adicionar as variáveis ao secrets do github e no workflow da azure.
 
 ### _Pronto_
 
@@ -137,6 +137,8 @@ Sim, está pronto o deploy.
 ```
 
 ## **Video**
+
+> [https://www.youtube.com/watch?v=dyKh8Y9ytvc](https://www.youtube.com/watch?v=dyKh8Y9ytvc)
 
 ## **Código Fonte**
 
