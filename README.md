@@ -1,6 +1,6 @@
 # $DEVOPS-TOOLS-CLOUD-COMPUTING$
 
-## **Integrantes**
+## **👥 Integrantes**
 
 |            NOME             |   RM   |
 | :-------------------------: | :----: |
@@ -8,11 +8,11 @@
 |   Samuel Patrick Yariwake   | 556461 |
 | Luiz Felipe Campos da Silva | 555591 |
 
-## **Objetivo**
+## **🎯 Objetivo**
 
 ### Rastrear uma moto no patio da MOTTU.
 
-## **Solução**
+## **💡 Solução**
 
 ### Utilizar IOT para rastrear uma moto no patio da MOTTU, triangulando a localização com o uso de WIFI.
 
@@ -27,10 +27,11 @@ Com um custo aproximado de **R$ 50,00 por dispositivo**, conseguimos montar um s
 ### 2. API DOTNET para backend.
 
 ### 3. AZURE App Services
-   - Deploy da aplicação em nuvem para facilitar o acesso e escalabilidade.
-   - Application insights para métricas da aplicação.
 
-## **Arquitetura**
+- Deploy da aplicação em nuvem para facilitar o acesso e escalabilidade.
+- Application insights para métricas da aplicação.
+
+## **🧱 Arquitetura**
 
 ![estrutura_simples](<./img/Azure%20DevOps%20(1).png>)
 
@@ -42,11 +43,11 @@ Com um custo aproximado de **R$ 50,00 por dispositivo**, conseguimos montar um s
 4. Registro da posição no banco MySQL
 5. Envio da posição para o front por meio da API DOTNET
 
-## **Recursos**
+## **🛠️ Recursos**
 
 ![webapp](<./img/Exported-Diagram%20(2).png>)
 
-## **Deploy**
+## **🌐 Deploy**
 
 ### _Rodar o [Script de deploy](./script/deploy.sh)_
 
@@ -78,9 +79,22 @@ Solução seria adicionar as variáveis ao secrets do github e no workflow da az
 
 Sim, está pronto o deploy.
 
-- https://wa-challenge-mottu.azurewebsites.net
+- [🔗 WebApp](https://wa-challenge-mottu.azurewebsites.net)
 
-## **Exemplos de testes da API**
+## **🧪 Exemplos de testes da API**
+
+### _Endpoints_
+
+| Método | Rota                                            | Descrição                        |
+| ------ | ----------------------------------------------- | -------------------------------- |
+| GET    | **/api/[entidade]**                             | Retorna todos os registros       |
+| GET    | **/api/[entidade]/paginado?pagina=[x]&qtd=[y]** | Retorna registros paginados      |
+| GET    | **/api/[entidade]/{id}**                        | Retorna um único registro por ID |
+| POST   | **/api/[entidade]**                             | Cria um novo registro            |
+| PUT    | **/api/[entidade]/{id}**                        | Atualiza um registro existente   |
+| DELETE | **/api/[entidade]/{id}**                        | Remove um registro existente     |
+
+- `Registro Sinal` não tem PUT, já que não se pode adulterar um registro.
 
 ### _POST_
 
@@ -138,10 +152,18 @@ Sim, está pronto o deploy.
 }
 ```
 
-## **Video**
+### _outros_
 
-> [https://www.youtube.com/watch?v=dyKh8Y9ytvc](https://www.youtube.com/watch?v=dyKh8Y9ytvc)
+- [exemplos de filial](./data/filial_test.json)
+- [exemplos de patio](./data/patio_test.json)
+- [exemplos de registro](./data/registro_test.json)
+- [exemplos de wifi](./data/wifi_test.json)
 
-## **Código Fonte**
+## **🎥 Video**
 
-> [https://github.com/challenge-mottu/ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET](https://github.com/challenge-mottu/ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET)
+[Clique aqui para assistir ](https://www.youtube.com/watch?v=gxX8JHUuLHE)
+
+## **💻 Código Fonte**
+
+[Repositório no GitHub](https://github.com/challenge-mottu/ADVANCED-BUSINESS-DEVELOPMENT-WITH-.NET)
+
