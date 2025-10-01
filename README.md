@@ -78,6 +78,8 @@ Solução seria adicionar as variáveis ao secrets do github e no workflow da az
 
 Sim, está pronto o deploy.
 
+- https://wa-challenge-mottu.azurewebsites.net
+
 ## **Exemplos de testes da API**
 
 ### _POST_
